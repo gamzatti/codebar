@@ -39,8 +39,8 @@ function addToList(item) {
 
 function updateTotals() {
   
-  var pending = $('.pending').length;
-  var completed = $('.completed').length;
+  var pending = $('.pending').length();
+  var completed = $('.completed').length();
   $('.total').text("Pending: " + pending + " Completed: " + completed);
 
 }
